@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 
-// color pallette lightest to darkest  #ffe9f6 #f4c6de #ea90bc #e00914 #f67728
+// color pallette lightest to darkest  #fff0f3 #ffb3c1 #ff758f #e00914 #f67728
 
 const config: Config = {
   content: [
@@ -11,9 +11,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "light-rose": "#ffe9f6",
-        "medium-rose": "#f4c6de",
-        "dark-rose": "#ea90bc",
+        "light-rose": "#fff0f3",
+        "medium-rose": "#ffb3c1",
+        "dark-rose": "#ff758f",
         "orange-accent": "#f67728",
         "period-red": "#e00914",
       },
