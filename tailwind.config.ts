@@ -12,7 +12,10 @@ const config: Config = {
     extend: {
       colors: {
         "light-rose": "#ffe9f6",
+        "medium-rose": "#f4c6de",
         "dark-rose": "#ea90bc",
+        "orange-accent": "#f67728",
+        "period-red": "#e00914",
       },
       fontFamily: {
         gabriela: ['Gabriela', 'serif'],
