@@ -2,9 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Link from "next/link";
-import { useState } from "react";
-
-// header text will probably change
 
 export default function Home() {
   return (
@@ -12,7 +9,7 @@ export default function Home() {
       <Head>
         <title>period.</title>
       </Head>
-      <header className="p-4 ml-2 text-2xl font-gabriela text-dark-rose">
+      <header className="p-4 ml-2 text-2xl font-gabriela text-period-red">
         period.
       </header>
       <main className="flex flex-col items-center justify-center h-screen">
@@ -22,13 +19,11 @@ export default function Home() {
             placeholder="Explore the wonders of the female body..."
           />
         </div>
-        <div className="text-center ml-4">
           <Link href="/ailearning" passHref>
             <div className="text-dark-rose p-4">
-              <span>Ai</span>
+              <button className="rounded-full border border-medium-rose text-white p-2 bg-dark-rose hover:bg-period-red hover:border-medium-rose transition duration-300 ease-in-out">Enlighten Me</button>
             </div>
           </Link>
-        </div>
       </main>
     </>
   );
