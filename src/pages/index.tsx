@@ -21,7 +21,7 @@ export default function Home() {
         </div>
           <Link href="/ailearning" passHref>
             <div className="text-dark-rose p-4">
-              <button className="rounded-full border border-medium-rose text-white p-2 bg-dark-rose hover:bg-period-red hover:border-medium-rose transition duration-300 ease-in-out">Enlighten Me</button>
+              <button className="rounded-full border border-medium-rose text-white p-2 bg-period-red hover:bg-dark-rose hover:border-dark-rose transition duration-300 ease-in-out">Enlighten Me</button>
             </div>
           </Link>
       </main>
