@@ -14,6 +14,9 @@ const config: Config = {
         "light-rose": "#ffe9f6",
         "dark-rose": "#ea90bc",
       },
+      fontFamily: {
+        gabriela: ['Gabriela', 'serif'],
+      },
     },
   },
   plugins: [],
